@@ -5,7 +5,7 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.stroy-calc.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
     <name>ТЕСТ. stroy-calc.ru</name>
 
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
+    <preference name="SplashScreenSpinnerColor" value="#FFC200" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -40,17 +40,17 @@
 
 
     <platform name="android">
-        <icon src="res/android/icon/44a5020c926942a592a6b20ed917be11.png" density="ldpi" />
-        <icon src="res/android/icon/9344f20a0eb3f6238fba44792af5aeae.png" density="mdpi" />
-        <icon src="res/android/icon/3678a16337a5e4f8c3c1d5572dc605eb.png" density="hdpi" />
-        <icon src="res/android/icon/30ccbce3d33466a49c3f8e76b85e2dec.png" density="xhdpi" />
-        <icon src="res/android/icon/e23705e1b7a479834a5de68efc10c5f5.png" density="xxhdpi" />
-        <icon src="res/android/icon/7f619dfac77e7cf9041d005f1e4b0a9a.png" density="xxxhdpi" />
+        <icon src="res/android/icon/03c44a593f18515f2ee119a50ae4b5e2.png" density="ldpi" />
+        <icon src="res/android/icon/14a15103962e73028e095f057dea5bd5.png" density="mdpi" />
+        <icon src="res/android/icon/84b450d1befb143931e14426cccbc623.png" density="hdpi" />
+        <icon src="res/android/icon/770b88b7455b6bc98c339c82dfcfd5a6.png" density="xhdpi" />
+        <icon src="res/android/icon/3633c28abb29f0b55c1e8b091503f2f5.png" density="xxhdpi" />
+        <icon src="res/android/icon/f77b98d5567f90191b68504e5d85f2ec.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/1db9288b905147bfe0cbdf1905b37e97.png" density="port-hdpi"/>
-        <splash src="res/android/screen/22109922ec3bfe60b11bd12ef80188ce.png" density="port-ldpi"/>
-        <splash src="res/android/screen/ae36a26ec51cb0f840d5c0a21bdf57d2.png" density="port-mdpi"/>
-        <splash src="res/android/screen/af4833ae5cf84d230c65dd810d3b6a46.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/41dec6284052ce09f9faae62540f3229.png" density="port-hdpi"/>
+        <splash src="res/android/screen/2ad6cf34d2a8ba25a7960c99ad486e1a.png" density="port-ldpi"/>
+        <splash src="res/android/screen/299ec7043dc2f7b5f5b38d35db7b9464.png" density="port-mdpi"/>
+        <splash src="res/android/screen/6abac4e6db81d5f659cc22f064b6af6a.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
